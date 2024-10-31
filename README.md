@@ -23,5 +23,5 @@ The University Attendance Management System is a Kotlin-based application design
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/attendance-management-system.git
-![image](https://github.com/user-attachments/assets/61a69c97-318b-41d1-b2e0-541daf7f780a)
+[   git clone https://github.com/yourusername/attendance-management-system.git
+](https://github.com/snk-git-hub/QuickMark.git)![image](https://github.com/user-attachments/assets/61a69c97-318b-41d1-b2e0-541daf7f780a)
