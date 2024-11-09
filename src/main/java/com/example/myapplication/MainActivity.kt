@@ -44,13 +44,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
              val navController=rememberNavController()
-             NavHost(navController=navController,startDestination="screen_B",builder={
+             NavHost(navController=navController,startDestination="screen_A",builder={
                  composable("screen_A"){
                      ScreenA(navController)
                  }
+
                  composable("screen_B"){
                      ScreenB()
                  }
+                 composable("screen_C"){
+                     ScreenC()
+                 }
+
                 })
             }
         }
