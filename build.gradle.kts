@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -41,7 +40,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -57,14 +55,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    val navversion = "2.8.3"
 
-    implementation("androidx.navigation:navigation-compose:$navversion")
-=======
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
-    alias(libs.plugins.kotlin.compose) apply false
->>>>>>> 3cb86a4e2195379ef6e731e93460911ab232c1f1
+    val navVersion = "2.8.3"
+    implementation("androidx.navigation:navigation-compose:$navVersion")
 }
