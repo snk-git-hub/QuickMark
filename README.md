@@ -12,23 +12,23 @@ This is a native Android application that allows students to track their interna
 ## Screenshots
 
 - **Sign-in Screen**: 
-  ![Sign-in Screen](./assets/sign-in-screen.png)
+  ![Sign-in Screen]
   - Users can sign in using their Google account.
 
 - **Enter USN Screen**:
-  ![Enter USN Screen](./assets/enter-usn.png)
+  ![Enter USN Screen]![image](https://github.com/user-attachments/assets/dc184ab5-1f48-4476-a2b3-15980d863cea)
+
   - After signing in, the student needs to enter their USN to access their academic data.
+![image](https://github.com/user-attachments/assets/16dde53c-cb13-4190-a7a3-0b62ad203341)
 
 - **Marks & Attendance Dashboard**:
-  ![Dashboard Screen](./assets/dashboard.png)
+  ![Dashboard Screen]![image](https://github.com/user-attachments/assets/16dde53c-cb13-4190-a7a3-0b62ad203341)
+
   - After entering the USN, the app displays a detailed dashboard with progress bars for marks and attendance.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository-name/attendance-marks-tracker.git
-![image](https://github.com/user-attachments/assets/dc184ab5-1f48-4476-a2b3-15980d863cea)
-![image](https://github.com/user-attachments/assets/a4d190f9-9126-4819-b29a-92afe44d47fd)
-![image](https://github.com/user-attachments/assets/16dde53c-cb13-4190-a7a3-0b62ad203341)
+git remote add origin https://github.com/snk-git-hub/QuickMark.git
 
