@@ -48,13 +48,13 @@ class MainActivity : ComponentActivity() {
                  composable("screen_A"){
                      ScreenA(navController)
                  }
-
+                 composable("screen_C"){
+                     ScreenC(navController)
+                 }
                  composable("screen_B"){
                      ScreenB()
                  }
-                 composable("screen_C"){
-                     ScreenC()
-                 }
+
 
                 })
             }
